@@ -1,0 +1,134 @@
+-- INSERT --
+
+
+
+   <C-H>       * :wincmd h<CR>
+	Last set from ~/.config/nvim/keys/mappings.vim line 34
+n  <Tab>       * :bnext<CR>
+	Last set from ~/.config/nvim/keys/mappings.vim line 44
+   <NL>        * :wincmd j<CR>
+	Last set from ~/.config/nvim/keys/mappings.vim line 33
+   <C-K>       * :wincmd k<CR>
+	Last set from ~/.config/nvim/keys/mappings.vim line 32
+   <C-L>       * :wincmd l<CR>
+	Last set from ~/.config/nvim/keys/mappings.vim line 35
+n  <C-N>       * <Cmd>NvimTreeToggle<CR>
+	Last set from ~/.config/nvim/after/plugin/tree.rc.vim line 28
+o  %             <Plug>(MatchitOperationForward)
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 60
+x  %             <Plug>(MatchitVisualForward)
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 58
+n  %             <Plug>(MatchitNormalForward)
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 56
+n  ,n          * <Cmd>NvimTreeFindFile<CR>
+	Last set from ~/.config/nvim/after/plugin/tree.rc.vim line 28
+n  ,r          * <Cmd>NvimTreeRefresh<CR>
+	Last set from ~/.config/nvim/after/plugin/tree.rc.vim line 28
+n  ,ti           :<C-U>IndentGuidesToggle<CR>
+	Last set from ~/.config/nvim/after/plugin/indent-guides.rc.vim line 1
+n  ,ig           <Plug>IndentGuidesToggle
+	Last set from ~/.local/share/nvim/plugged/vim-indent-guides/plugin/indent_guides.vim line 72
+n  ,h          * H
+	Last set from ~/.config/nvim/keys/mappings.vim line 21
+v  <           * <gv
+	Last set from ~/.config/nvim/keys/mappings.vim line 37
+v  >           * >gv
+	Last set from ~/.config/nvim/keys/mappings.vim line 38
+n  H           * ^
+	Last set from ~/.config/nvim/keys/mappings.vim line 19
+   J           * <Cmd>BufferPrevious<CR>
+	Last set from ~/.config/nvim/after/plugin/barbar.rc.vim line 6
+n  L           * $
+	Last set from ~/.config/nvim/keys/mappings.vim line 20
+n  Q           * <Nop>
+	Last set from ~/.config/nvim/keys/mappings.vim line 10
+   X           * <Cmd>BufferClose<CR>
+	Last set from ~/.config/nvim/after/plugin/barbar.rc.vim line 6
+o  [%            <Plug>(MatchitOperationMultiBackward)
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 75
+x  [%            <Plug>(MatchitVisualMultiBackward)
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 73
+n  [%            <Plug>(MatchitNormalMultiBackward)
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 71
+   \rc         * :e ~/.config/nvim/init.vim<CR>
+	Last set from ~/.config/nvim/keys/mappings.vim line 52
+n  \<Space>      :nohls<CR>
+	Last set from ~/.config/nvim/keys/mappings.vim line 50
+o  ]%            <Plug>(MatchitOperationMultiForward)
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 76
+x  ]%            <Plug>(MatchitVisualMultiForward)
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 74
+n  ]%            <Plug>(MatchitNormalMultiForward)
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 72
+x  a%            <Plug>(MatchitVisualTextObject)
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 80
+n  gN          * <Cmd>lua require"lspsaga.diagnostic".lsp_jump_diagnostic_next()<CR>
+	Last set from ~/.config/nvim/after/plugin/lspsaga.rc.vim line 10
+n  gn          * <Cmd>lua require"lspsaga.diagnostic".lsp_jump_diagnostic_prev()<CR>
+	Last set from ~/.config/nvim/after/plugin/lspsaga.rc.vim line 10
+n  gr          * <Cmd>lua require("lspsaga.rename").rename()<CR>
+	Last set from ~/.config/nvim/after/plugin/lspsaga.rc.vim line 10
+v  ga          * :<C-U>lua require("lspsaga.codeaction").range_code_action()<CR>
+	Last set from ~/.config/nvim/after/plugin/lspsaga.rc.vim line 10
+n  ga          * <Cmd>lua require("lspsaga.codeaction").code_action()<CR>
+	Last set from ~/.config/nvim/after/plugin/lspsaga.rc.vim line 10
+o  g%            <Plug>(MatchitOperationBackward)
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 61
+x  g%            <Plug>(MatchitVisualBackward)
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 59
+n  g%            <Plug>(MatchitNormalBackward)
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 57
+n  h           * <Cmd>lua require("lspsaga.hover").render_hover_doc()<CR>
+	Last set from ~/.config/nvim/after/plugin/lspsaga.rc.vim line 10
+n  tp          * gT
+	Last set from ~/.config/nvim/keys/mappings.vim line 23
+n  tn          * gt
+	Last set from ~/.config/nvim/keys/mappings.vim line 22
+x  <Plug>(MatchitVisualTextObject)   <Plug>(MatchitVisualMultiBackward)o<Plug>(MatchitVisualMultiForward)
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 79
+o  <Plug>(MatchitOperationMultiForward) * :<C-U>call matchit#MultiMatch("W",  "o")<CR>
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 69
+o  <Plug>(MatchitOperationMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "o")<CR>
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 68
+x  <Plug>(MatchitVisualMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>m'gv``
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 67
+x  <Plug>(MatchitVisualMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>m'gv``
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 66
+n  <Plug>(MatchitNormalMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 65
+n  <Plug>(MatchitNormalMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 64
+o  <Plug>(MatchitOperationBackward) * :<C-U>call matchit#Match_wrapper('',0,'o')<CR>
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 54
+o  <Plug>(MatchitOperationForward) * :<C-U>call matchit#Match_wrapper('',1,'o')<CR>
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 53
+x  <Plug>(MatchitVisualBackward) * :<C-U>call matchit#Match_wrapper('',0,'v')<CR>m'gv``
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 52
+x  <Plug>(MatchitVisualForward) * :<C-U>call matchit#Match_wrapper('',1,'v')<CR>m'gv``
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 51
+n  <Plug>(MatchitNormalBackward) * :<C-U>call matchit#Match_wrapper('',0,'n')<CR>
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 50
+n  <Plug>(MatchitNormalForward) * :<C-U>call matchit#Match_wrapper('',1,'n')<CR>
+	Last set from /usr/local/Cellar/neovim/HEAD-c642f3a/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 49
+n  <Plug>IndentGuidesDisable & :IndentGuidesDisable<CR>
+	Last set from ~/.local/share/nvim/plugged/vim-indent-guides/plugin/indent_guides.vim line 78
+n  <Plug>IndentGuidesEnable & :IndentGuidesEnable<CR>
+	Last set from ~/.local/share/nvim/plugged/vim-indent-guides/plugin/indent_guides.vim line 77
+n  <Plug>IndentGuidesToggle & :IndentGuidesToggle<CR>
+	Last set from ~/.local/share/nvim/plugged/vim-indent-guides/plugin/indent_guides.vim line 76
+n  <S-Tab>     * :bprevious<CR>
+	Last set from ~/.config/nvim/keys/mappings.vim line 45
+n  <PageDown>  * <Nop>
+	Last set from ~/.config/nvim/keys/mappings.vim line 13
+n  <PageUp>    * <Nop>
+	Last set from ~/.config/nvim/keys/mappings.vim line 12
+n  <Right>     * <Nop>
+	Last set from ~/.config/nvim/keys/mappings.vim line 9
+n  <Left>      * <Nop>
+	Last set from ~/.config/nvim/keys/mappings.vim line 8
+n  <Down>      * <Nop>
+	Last set from ~/.config/nvim/keys/mappings.vim line 7
+n  <Up>        * <Nop>
+	Last set from ~/.config/nvim/keys/mappings.vim line 6
+   Č           * <Cmd>BufferNext<CR>
+	Last set from ~/.config/nvim/after/plugin/barbar.rc.vim line 6
